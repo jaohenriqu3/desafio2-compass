@@ -16,9 +16,6 @@ do Figma que segue abaixo:
 https://www.figma.com/design/R1JBemsz4bQIhhVIwu6Nv3/Untitled?
 node-id=0-116&t=Z9rzNEzUkBWcznjH-0
 
-o Seguir padrão de commit: Conventional Commits 1.0.0
-(https://www.conventionalcommits.org/pt-br/v1.0.0/)
-
 o Adição de filtros para ordenação de produtos na tela seguindo seu nome de A
 - Z e preço maior para menor;
 o Adição de paginação igual ao figma;

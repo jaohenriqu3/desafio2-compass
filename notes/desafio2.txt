@@ -1,1 +1,54 @@
+DESAFIO 2 - COMPASS UOL - SEMANA 8
+
+Criando uma página web
+(Result List de e-commerce) 
+
+Neste desafio será necessário construir uma página web utilizando os seus
+conhecimentos com HTML e CSS ou React.js e linguagem: JavaScript ou Typescript;
+✓ Lançamento do Desafio 10/06/2024;
+✓ Você deverá compartilhar o link do Github Page até 14/06/2024 às 17:00;
+✓ Você terá até o dia 17/06/2024 às 13:30 para finalizar o projeto;
+✓ Regras e pontuações do Desafio:
+o Projeto Individual;
+
+o Criar uma tela para um site web (Result List), baseado no templates do link
+do Figma que segue abaixo:
+https://www.figma.com/design/R1JBemsz4bQIhhVIwu6Nv3/Untitled?
+node-id=0-116&t=Z9rzNEzUkBWcznjH-0
+
+o Seguir padrão de commit: Conventional Commits 1.0.0
+(https://www.conventionalcommits.org/pt-br/v1.0.0/)
+
+o Adição de filtros para ordenação de produtos na tela seguindo seu nome de A
+- Z e preço maior para menor;
+o Adição de paginação igual ao figma;
+o Listagem de produtos dever ser dinâmica;
+o Validação de e-mail valido no footer (Regexp);
+✓ O projeto deverá contemplar a maior quantidade de elementos com HTML, CSS e
+JavaScript ou Typescript que você viu nos cursos das primeiras semanas do Programa
+de Bolsas.
+
+
+☺ Forma de entrega:
+✓ Enviar e-mail com o link do Github Pages para os seguintes destinatários:
+franciele.ciostek@compasso.com.br ; diego.bonetti@compasso.com.br ;
+felipe.leal@compasso.com.br; felipe.bassetto@compasso.com.br;
+vinicius.orlandi@compasso.com.br
+
+➢ Observações do Desafio:
+✓ Notas da implementação e apresentação serão separadas, cada uma valendo 10
+pontos;
+✓ Alterações no código após 17/06/2024 as 13:30 será descontada a nota da
+implementação e apresentação;
+✓ Não efetuar commits após 17/06/2024 as 13:30;
+✓ Faça o mínimo e entregue, caso algo esteja incompleto não tem problema, o
+importante é enviar a aplicação na data estipulada.
+✓ As apresentações serão gravadas
+✓ As apresentações se iniciarão em 17/06/2024 por meio de sorteio
+✓ Peça ajuda aos mentores no desenvolvimento do desafio caso tenha dificuldades
+✓ Em 14/06/2024 serão sorteados a ordem de apresentação em daily;
+✓ Cada apresentação levará no máximo 10 a 15 minutos;
+✓ Na apresentação será necessário mostrar o que implementou, ou seja, a codificação;
+✓ Entrega do desafio até 17/06/2024 às 13:30
+
 

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    max-width: 1440px;
+    height: 316px;
+    background: url('/desafio2-compass/assets/images/banner-img.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.banner-content {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.banner h1 {
+    font-size: 48px;
+    font-style:normal ;
+    font-weight: medium;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 16px;
+    color: #000000;
+}
+
+@media (max-width: 768px) {
+.banner {
+    height: auto;
+    padding: 20px;
+}
+
+.banner h1 {
+    font-size: 36px;
+}
+
+.banner p {
+    font-size: 14px;
+} 
+}

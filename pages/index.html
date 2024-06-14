@@ -1,101 +1,89 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Desafio 2 </title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/desafio2-compass/styles/header-style.css">
-    <link rel="stylesheet" href="/desafio2-compass/styles/banner-style.css">
-    <link rel="stylesheet" href="/desafio2-compass/styles/filter-box-style.css">
-    <link rel="stylesheet" href="/desafio2-compass/styles/footer-style.css">
-</head>
-
+    <title> Compass Shop </title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/desafio2-compass/style/style.css">
+</head> 
 <body>
-<!-- Header  -->
-<header>
-    <div class="container">
-        <div class="logo">
-            <img src="/desafio2-compass/assets/images/logo-dsf2.png" alt="Logo">
-        </div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="icons">
-            <a href="#"><img src="/desafio2-compass/assets/icons/Vector-user.png" alt="Icon 1"></a>
-            <a href="#"><img src="/desafio2-compass/assets/icons/Vector-share.png" alt="Icon 2"></a>
-            <a href="#"><img src="/desafio2-compass/assets/icons/Vector-heart.png" alt="Icon 3"></a>
-            <a href="#"><img src="/desafio2-compass/assets/icons/Vector-shop.png" alt="Icon 4"></a>
-        </div>
-    </div>
-</header>
-<!-- Header  -->
-
-<!-- Banner -->
-<div class="banner" >
-    <div class="banner-content">
-        <h1> Shop </h1>
-        <p> <b> Home > </b> Shop </p>
-    </div>
-</div> 
-<!-- Banner -->
- 
-<!-- Filter box -->
-<div class="filter-box">
-    <div class="search-left">
-        <img src="/desafio2-compass/assets/icons/Vector-filter.png" alt="Filter Icon">
-        <span>Showing 1–16 of 32 results</span>
-    </div>
-    <div class="search-right">
-        <span>Show</span>
-        <input type="number" value="16" min="1">
-    </div>
-</div>
-<!-- Filter box -->
-
-<!-- Footer --> 
-<footer>
-    <div class="footer-container">
-        <div class="footer-left">
-            <div class="footer-logo">
-                <img src="logo.png" alt="Logo">
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="/desafio2-compass/assets/images/logo-dsf2.png" alt="Logo">
             </div>
-            <p class="footer-description">
-                Rua Alexandre Dumas, 1711 - 6º andar - Chácara Santo Antônio, São Paulo - SP, 04717-004
-            </p>
-        </div>
-        <div class="footer-links">
-            <div class="footer-column">
-                <h3>Home</h3>
-                <ul>
-                    <li><a href="#shop">Shop</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home"> Home </a></li>
+                    <li><a href="#about"> About </a></li>
+                    <li><a href="#services"> Services </a></li>
+                    <li><a href="#contact"> Contact </a></li>
                 </ul>
-            </div>
-            <div class="footer-column">
-                <h3>Help</h3>
-                <ul>
-                    <li><a href="#payment-options">Payment Options</a></li>
-                    <li><a href="#returns">Returns</a></li>
-                    <li><a href="#privacy-policies">Privacy Policies</a></li>
-                </ul>
-            </div>
-            <div class="footer-column">
-                <h3>Newsletter</h3>
-                <form class="newsletter-form">
-                    <input type="email" placeholder="Enter Your Email Address" required>
-                    <button type="submit">Subscribe</button>
-                </form>
+            </nav>
+            <div class="icons">
+                <a href="#"><img src="/desafio2-compass/assets/icons/Vector-user.png" alt="User"></a>
+                <a href="#"><img src="/desafio2-compass/assets/icons/Vector-share.png" alt="Icon 2"></a>
+                <a href="#"><img src="/desafio2-compass/assets/icons/Vector-heart.png" alt="Icon 3"></a>
+                <a href="#"><img src="/desafio2-compass/assets/icons/Vector-shop.png" alt="Shop"></a>
             </div>
         </div>
-    </div>
-</footer>
-<!-- Footer --> 
+    </header>
+
+    <section class="banner">
+        <div class="banner-content">
+            <h1> Shop </h1>
+            <p> <b> Home > </b> Shop </p>
+        </div>
+    </section>
+    
+    <section class="search-section">
+        <div class="search-left">
+            <img src="/desafio2-compass/assets/icons/Vector-filter.png" alt="Filter Icon">
+            <span>Showing 1–16 of 32 results</span>
+        </div>
+        <div class="search-right">
+            <span>Show</span>
+            <input type="number" value="16" min="1">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="/desafio2-compass/assets/images/logo-dsf2.png" alt="Logo">
+                </div>
+                <p class="footer-description">   
+                    Rua Alexandre Dumas, 1711 - 6º andar - Chácara Santo Antônio, São Paulo - SP, 04717-004
+                </p>  
+            </div> 
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Home</h3>
+                    <ul>
+                        <li><a href="#shop">Shop</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Help</h3>
+                    <ul>
+                        <li><a href="#payment-options">Payment Options</a></li>
+                        <li><a href="#returns">Returns</a></li>
+                        <li><a href="#privacy-policies">Privacy Policies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter Your Email Address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
